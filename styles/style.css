@@ -170,6 +170,9 @@
     margin: 100px 130px;
     display: flex;
     justify-content: space-around;
+    background-color: #e4e3f1;
+    padding: 30px;
+    border-radius: 20px;
 }
 .form-container label{
     display: block;
@@ -214,4 +217,48 @@
     margin-left: 20px;
     font-size: 20px;
     border: none;
+    color: white;
+}
+.btn-primary2:hover{
+    cursor: pointer;
+    background-color: #9f9ddf;
+    color: black;
+}
+
+
+
+/* footer section styles */
+.footer-container{
+    background-color: #e4e3f1;
+}
+.footer-content{
+    align-items: center;
+    text-align: center;
+    
+}
+.footer-title{
+    font-size:100px ;
+    color: rgba(78, 71, 255, 1);
+    padding-top: 100px;
+}
+.footer-discription{
+    font-size: 25px;
+    color: #8987A1;
+    margin: 0px 650px;
+    padding-bottom: 20px;
+}
+.footer-location ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 750px;
+    padding-bottom: 100px;
+}
+.footer-location ul li{
+    list-style: none;
+    font-size: 25px;
+}
+.footer-location ul li a{
+    text-decoration: none;
+    color: black;
+    
 }
