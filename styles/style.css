@@ -40,6 +40,9 @@
 .header-icon{
     font-size: 35px;
 }
+.header-logo{
+    color: rgb(228, 53, 53);
+}
 .header-title{
     font-size: 65px;
     text-align: center;
