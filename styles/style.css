@@ -23,7 +23,11 @@
     border: none;
 }
 .section-title{
-    font-size: 45px;
+    font-size: 50px;
+}
+
+.section-discription{
+    font-size: 25px;
 }
 
 
@@ -125,7 +129,7 @@
 }
 .client-name{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     margin-top: 25px;
 }
 .client{
@@ -140,4 +144,21 @@
 .client-say-date{
     font-size: 18px;
     color: #3e3f41;
+}
+
+
+/* focus section styles */
+.focus-container{
+    text-align: center;
+    padding: 75px 130px;
+}
+.focus-content{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.focus-image{
+    width: 1000px;
+    border-radius: 30px;
+    margin-bottom: 100px;
 }
