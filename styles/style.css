@@ -58,6 +58,7 @@
 }
 
 
+
 /* Action style */
 .action-container{
     display: flex;
@@ -161,4 +162,56 @@
     width: 1000px;
     border-radius: 30px;
     margin-bottom: 100px;
+}
+
+
+/* getTouch section styles */
+.getTouch-container{
+    margin: 100px 130px;
+    display: flex;
+    justify-content: space-around;
+}
+.form-container label{
+    display: block;
+}
+
+.getTouch-title h1{
+    font-size: 90px;
+    padding-top: 100px;
+
+}
+
+.form-container input[type="text"], .form-container input[type="email"]{
+    height: 65px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+.form-container textarea{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.form-container label{
+    font-size: 30px;
+}
+
+.btn-primary2{
+    height: 70px;
+    width: 700px;
+    border-radius: 10px;
+    background-color:#4E47FF ;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
 }
