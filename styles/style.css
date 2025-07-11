@@ -22,10 +22,11 @@
     border-radius: 8px;
     border: none;
 }
-
 .section-title{
     font-size: 45px;
 }
+
+
 
 /* header styles */
 .header{
@@ -70,4 +71,28 @@
 .action-image{
     border-radius: 20px;
     width: 450px;
+}
+
+
+/* Productive users section */
+.users-container{
+    background-color: #bfd4f3;
+    padding: 40px 100px;
+    border-radius: 20px;
+    margin: 10px 150px 100px 150px;
+}
+.users-informations{
+    display: flex;
+    justify-content: space-around;
+}
+.users-title{
+    align-items: center;
+    text-align: center;
+}
+.user-text1{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.user-text2{
+    font-size: 20px;
 }
